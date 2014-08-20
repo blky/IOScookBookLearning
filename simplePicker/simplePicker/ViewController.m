@@ -46,6 +46,7 @@
 }
 
  
+//button click to retrieve pickerView selected value
 
 
 - (IBAction)selectedButton:(UIButton *)sender {
@@ -58,6 +59,9 @@
 
     
  }
+
+//delegate event tracking on pickerView
+
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 
 {
