@@ -140,21 +140,19 @@ static NSString * TableCellID = @"myCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 {
  
- 
-    NSLog(@"FROM TABLE : [%i][%i] ==>%@",indexPath.section, indexPath.row, [tableView cellForRowAtIndexPath:indexPath].textLabel.text);
-    NSLog(@"FROM DATA  : [%i][%i] ==>%@",  indexPath.section,indexPath.row, self.arrayOfSections[indexPath.section][indexPath.row] );
+    NSLog(@"TABLE CELL CLICKED");
+    NSLog(@"INDEXPATH for table and data :[%i][%i]: table display : %@ : arary value : %@",indexPath.section, indexPath.row,  [tableView cellForRowAtIndexPath:indexPath].textLabel.text,self.arrayOfSections[indexPath.section][indexPath.row]);
     
 }
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
     
-    NSLog(@"accessory button is tapped  [%i][%i]",  indexPath.section,indexPath.row);
     
-    UITableViewCell * ownerCell = [tableView cellForRowAtIndexPath:indexPath];
-    
-    NSLog (@"FROM DATA  : [%i][%i] ==> %@", indexPath.section,indexPath.row, self.arrayOfSections [indexPath.section ][indexPath.row] );
-    NSLog (@"FROM TABLE : [%i][%i] ==> %@", indexPath.section,indexPath.row ,ownerCell.textLabel.text);
-    
+    //UITableViewCell * ownerCell = [tableView cellForRowAtIndexPath:indexPath];
+    NSLog(@"ACCESSARY BUTTON CLICKED");
+
+    NSLog(@"INDEXPATH for table and data :[%i][%i]: table display : %@ : arary value : %@",indexPath.section, indexPath.row,  [tableView cellForRowAtIndexPath:indexPath].textLabel.text,self.arrayOfSections[indexPath.section][indexPath.row]);
+
     
 }
 
