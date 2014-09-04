@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+        <key>name</key>
+        <string>Autumn Olive</string>
+        <key>radius</key>
+        <real>10</real>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Dwarf Cherry</string>
+        <key>radius</key>
+        <real>5</real>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Bamboo</string>
+        <key>radius</key>
+        <real>2</real>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Pomegranate</string>
+        <key>radius</key>
+        <real>6</real>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Lupin</string>
+        <key>radius</key>
+        <real>0.60000002384185791</real>
+    </dict>
+</array>
+</plist>
