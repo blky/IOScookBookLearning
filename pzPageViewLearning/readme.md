@@ -1,19 +1,22 @@
 Page View and date view
 ==============
 
+------------------------------
+
+
 create project with pageview project in xcode 
 --------------
-<br>
+------------------------------
 
-- after creation of the project, there will be three class
--
- 	)rootviewcontroller
- 	2)dataviewcontroller
- 	3)modelcontroller
+after creation of the project, there will be three classes
+---------------
+    1)rootviewcontroller
+    2)dataviewcontroller
+    3)modelcontroller
  	
- - the page view data source : 
- - 
-  	model controller -abstract class of some protocol with detailed  implement data source model 
+the page view data source : 
+------------------------------
+    model controller -abstract class of some protocol with detailed  implement data source model 
 	
 	@interface ModelController : NSObject <UIPageViewControllerDataSource>
 
@@ -34,16 +37,15 @@ create project with pageview project in xcode
 	}
  
  
- - the page view layout 
- - 
+the page view layout 
+------------------------------
     dataviewcontroller
     @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 	@property (strong, nonatomic) id dataObject;
 
 
-- rootviewcontroller
--
-	combine the layout and data source
+combine layout and data source with rootviewcontroller
+------------------------------
 
 	UIPageViewControllerDelegate 
 	@property (strong, nonatomic) UIPageViewController *pageViewController;
