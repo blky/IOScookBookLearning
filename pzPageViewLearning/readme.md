@@ -3,6 +3,7 @@ Page View and date view
 
 create project with pageview project in xcode 
 --------------
+<br>
 
 - after creation of the project, there will be three class
 -
@@ -30,7 +31,7 @@ create project with pageview project in xcode
      	   _pageData = [[dateFormatter monthSymbols] copy];
    	 }
    	 return self;
-}
+	}
  
  
  - the page view layout 
@@ -38,6 +39,7 @@ create project with pageview project in xcode
     dataviewcontroller
     @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 	@property (strong, nonatomic) id dataObject;
+
 
 - rootviewcontroller
 -
