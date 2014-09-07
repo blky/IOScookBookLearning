@@ -4,18 +4,17 @@ table view
 table view controller ,  table view data source, delegate
 --------------
 -viewcontroller.h
+
     include tableviewcell property
 
-- viewcontroller.m
-
+-viewcontroller.m
     registerClass of tableviewcell
     implemented required datasource method. 
     delegate handels editing, deletion, etc. 
 
-- data source structure
-    dictionary 
-        array odd number
-        array even number
+-data source structure by using dictionary
+    array odd number
+    array even number
         
 -dictionary methods often used 
 
