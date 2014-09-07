@@ -9,7 +9,7 @@ init , configuration,etc
         self.myProgressView = [[UIProgressView alloc]initWithProgressViewStyle:UIProgressViewStyleBar];
 
 
-- viewcontroller.m
+- viewcontroller.m viewdidload method
 - 
 	 [super viewDidLoad];
  
