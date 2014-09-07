@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F22195B19BCCB3300822D6A /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F22195A19BCCB3300822D6A /* readme.md */; };
+		8F569F4819A69A7400654D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F569F4719A69A7400654D27 /* Foundation.framework */; };
+		8F569F4A19A69A7400654D27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F569F4919A69A7400654D27 /* CoreGraphics.framework */; };
+		8F569F4C19A69A7400654D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F569F4B19A69A7400654D27 /* UIKit.framework */; };
+		8F569F5219A69A7400654D27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F569F5019A69A7400654D27 /* InfoPlist.strings */; };
+		8F569F5419A69A7400654D27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F569F5319A69A7400654D27 /* main.m */; };
+		8F569F5819A69A7400654D27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F569F5719A69A7400654D27 /* AppDelegate.m */; };
+		8F569F5B19A69A7400654D27 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F569F5919A69A7400654D27 /* Main_iPhone.storyboard */; };
+		8F569F5E19A69A7400654D27 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F569F5C19A69A7400654D27 /* Main_iPad.storyboard */; };
+		8F569F6119A69A7400654D27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F569F6019A69A7400654D27 /* ViewController.m */; };
+		8F569F6319A69A7400654D27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F569F6219A69A7400654D27 /* Images.xcassets */; };
+		8F569F6A19A69A7400654D27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F569F6919A69A7400654D27 /* XCTest.framework */; };
+		8F569F6B19A69A7400654D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F569F4719A69A7400654D27 /* Foundation.framework */; };
+		8F569F6C19A69A7400654D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F569F4B19A69A7400654D27 /* UIKit.framework */; };
+		8F569F7419A69A7400654D27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F569F7219A69A7400654D27 /* InfoPlist.strings */; };
+		8F569F7619A69A7400654D27 /* pzProgressViewLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F569F7519A69A7400654D27 /* pzProgressViewLearningTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F569F6D19A69A7400654D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F569F3C19A69A7400654D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F569F4319A69A7400654D27;
+			remoteInfo = pzProgressViewLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F22195A19BCCB3300822D6A /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		8F569F4419A69A7400654D27 /* pzProgressViewLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pzProgressViewLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F569F4719A69A7400654D27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F569F4919A69A7400654D27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F569F4B19A69A7400654D27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F569F4F19A69A7400654D27 /* pzProgressViewLearning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pzProgressViewLearning-Info.plist"; sourceTree = "<group>"; };
+		8F569F5119A69A7400654D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F569F5319A69A7400654D27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F569F5519A69A7400654D27 /* pzProgressViewLearning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pzProgressViewLearning-Prefix.pch"; sourceTree = "<group>"; };
+		8F569F5619A69A7400654D27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F569F5719A69A7400654D27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F569F5A19A69A7400654D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8F569F5D19A69A7400654D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8F569F5F19A69A7400654D27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F569F6019A69A7400654D27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F569F6219A69A7400654D27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F569F6819A69A7400654D27 /* pzProgressViewLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pzProgressViewLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F569F6919A69A7400654D27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8F569F7119A69A7400654D27 /* pzProgressViewLearningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pzProgressViewLearningTests-Info.plist"; sourceTree = "<group>"; };
+		8F569F7319A69A7400654D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F569F7519A69A7400654D27 /* pzProgressViewLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pzProgressViewLearningTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F569F4119A69A7400654D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F569F4A19A69A7400654D27 /* CoreGraphics.framework in Frameworks */,
+				8F569F4C19A69A7400654D27 /* UIKit.framework in Frameworks */,
+				8F569F4819A69A7400654D27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F569F6519A69A7400654D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F569F6A19A69A7400654D27 /* XCTest.framework in Frameworks */,
+				8F569F6C19A69A7400654D27 /* UIKit.framework in Frameworks */,
+				8F569F6B19A69A7400654D27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F569F3B19A69A7400654D27 = {
+			isa = PBXGroup;
+			children = (
+				8F22195A19BCCB3300822D6A /* readme.md */,
+				8F569F4D19A69A7400654D27 /* pzProgressViewLearning */,
+				8F569F6F19A69A7400654D27 /* pzProgressViewLearningTests */,
+				8F569F4619A69A7400654D27 /* Frameworks */,
+				8F569F4519A69A7400654D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F569F4519A69A7400654D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F569F4419A69A7400654D27 /* pzProgressViewLearning.app */,
+				8F569F6819A69A7400654D27 /* pzProgressViewLearningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F569F4619A69A7400654D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F569F4719A69A7400654D27 /* Foundation.framework */,
+				8F569F4919A69A7400654D27 /* CoreGraphics.framework */,
+				8F569F4B19A69A7400654D27 /* UIKit.framework */,
+				8F569F6919A69A7400654D27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F569F4D19A69A7400654D27 /* pzProgressViewLearning */ = {
+			isa = PBXGroup;
+			children = (
+				8F569F5619A69A7400654D27 /* AppDelegate.h */,
+				8F569F5719A69A7400654D27 /* AppDelegate.m */,
+				8F569F5919A69A7400654D27 /* Main_iPhone.storyboard */,
+				8F569F5C19A69A7400654D27 /* Main_iPad.storyboard */,
+				8F569F5F19A69A7400654D27 /* ViewController.h */,
+				8F569F6019A69A7400654D27 /* ViewController.m */,
+				8F569F6219A69A7400654D27 /* Images.xcassets */,
+				8F569F4E19A69A7400654D27 /* Supporting Files */,
+			);
+			path = pzProgressViewLearning;
+			sourceTree = "<group>";
+		};
+		8F569F4E19A69A7400654D27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F569F4F19A69A7400654D27 /* pzProgressViewLearning-Info.plist */,
+				8F569F5019A69A7400654D27 /* InfoPlist.strings */,
+				8F569F5319A69A7400654D27 /* main.m */,
+				8F569F5519A69A7400654D27 /* pzProgressViewLearning-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F569F6F19A69A7400654D27 /* pzProgressViewLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F569F7519A69A7400654D27 /* pzProgressViewLearningTests.m */,
+				8F569F7019A69A7400654D27 /* Supporting Files */,
+			);
+			path = pzProgressViewLearningTests;
+			sourceTree = "<group>";
+		};
+		8F569F7019A69A7400654D27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F569F7119A69A7400654D27 /* pzProgressViewLearningTests-Info.plist */,
+				8F569F7219A69A7400654D27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F569F4319A69A7400654D27 /* pzProgressViewLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F569F7919A69A7400654D27 /* Build configuration list for PBXNativeTarget "pzProgressViewLearning" */;
+			buildPhases = (
+				8F569F4019A69A7400654D27 /* Sources */,
+				8F569F4119A69A7400654D27 /* Frameworks */,
+				8F569F4219A69A7400654D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pzProgressViewLearning;
+			productName = pzProgressViewLearning;
+			productReference = 8F569F4419A69A7400654D27 /* pzProgressViewLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F569F6719A69A7400654D27 /* pzProgressViewLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F569F7C19A69A7400654D27 /* Build configuration list for PBXNativeTarget "pzProgressViewLearningTests" */;
+			buildPhases = (
+				8F569F6419A69A7400654D27 /* Sources */,
+				8F569F6519A69A7400654D27 /* Frameworks */,
+				8F569F6619A69A7400654D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F569F6E19A69A7400654D27 /* PBXTargetDependency */,
+			);
+			name = pzProgressViewLearningTests;
+			productName = pzProgressViewLearningTests;
+			productReference = 8F569F6819A69A7400654D27 /* pzProgressViewLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F569F3C19A69A7400654D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.6pingblky;
+				TargetAttributes = {
+					8F569F6719A69A7400654D27 = {
+						TestTargetID = 8F569F4319A69A7400654D27;
+					};
+				};
+			};
+			buildConfigurationList = 8F569F3F19A69A7400654D27 /* Build configuration list for PBXProject "pzProgressViewLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F569F3B19A69A7400654D27;
+			productRefGroup = 8F569F4519A69A7400654D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F569F4319A69A7400654D27 /* pzProgressViewLearning */,
+				8F569F6719A69A7400654D27 /* pzProgressViewLearningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F569F4219A69A7400654D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F569F5E19A69A7400654D27 /* Main_iPad.storyboard in Resources */,
+				8F569F6319A69A7400654D27 /* Images.xcassets in Resources */,
+				8F569F5B19A69A7400654D27 /* Main_iPhone.storyboard in Resources */,
+				8F22195B19BCCB3300822D6A /* readme.md in Resources */,
+				8F569F5219A69A7400654D27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F569F6619A69A7400654D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F569F7419A69A7400654D27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F569F4019A69A7400654D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F569F6119A69A7400654D27 /* ViewController.m in Sources */,
+				8F569F5819A69A7400654D27 /* AppDelegate.m in Sources */,
+				8F569F5419A69A7400654D27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F569F6419A69A7400654D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F569F7619A69A7400654D27 /* pzProgressViewLearningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F569F6E19A69A7400654D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F569F4319A69A7400654D27 /* pzProgressViewLearning */;
+			targetProxy = 8F569F6D19A69A7400654D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F569F5019A69A7400654D27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F569F5119A69A7400654D27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F569F5919A69A7400654D27 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F569F5A19A69A7400654D27 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8F569F5C19A69A7400654D27 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F569F5D19A69A7400654D27 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8F569F7219A69A7400654D27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F569F7319A69A7400654D27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F569F7719A69A7400654D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F569F7819A69A7400654D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F569F7A19A69A7400654D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pzProgressViewLearning/pzProgressViewLearning-Prefix.pch";
+				INFOPLIST_FILE = "pzProgressViewLearning/pzProgressViewLearning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F569F7B19A69A7400654D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pzProgressViewLearning/pzProgressViewLearning-Prefix.pch";
+				INFOPLIST_FILE = "pzProgressViewLearning/pzProgressViewLearning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8F569F7D19A69A7400654D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pzProgressViewLearning.app/pzProgressViewLearning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pzProgressViewLearning/pzProgressViewLearning-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pzProgressViewLearningTests/pzProgressViewLearningTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8F569F7E19A69A7400654D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pzProgressViewLearning.app/pzProgressViewLearning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pzProgressViewLearning/pzProgressViewLearning-Prefix.pch";
+				INFOPLIST_FILE = "pzProgressViewLearningTests/pzProgressViewLearningTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F569F3F19A69A7400654D27 /* Build configuration list for PBXProject "pzProgressViewLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F569F7719A69A7400654D27 /* Debug */,
+				8F569F7819A69A7400654D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F569F7919A69A7400654D27 /* Build configuration list for PBXNativeTarget "pzProgressViewLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F569F7A19A69A7400654D27 /* Debug */,
+				8F569F7B19A69A7400654D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F569F7C19A69A7400654D27 /* Build configuration list for PBXNativeTarget "pzProgressViewLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F569F7D19A69A7400654D27 /* Debug */,
+				8F569F7E19A69A7400654D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F569F3C19A69A7400654D27 /* Project object */;
+}
