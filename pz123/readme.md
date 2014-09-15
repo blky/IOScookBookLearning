@@ -25,18 +25,18 @@ backwards:
 --------------
 * if need to transfer back the information, create barbutton action* 
 
-        - (IBAction)backCustomized:(UIBarButtonItem *)sender {
-        
-        
-                // [self.navigationController popToRootViewControllerAnimated:YES];
-                int currentVCIndex = [self.navigationController.viewControllers indexOfObject:self.navigationController.topViewController];
-                
-                firstViewController *parent = [self.navigationController.viewControllers objectAtIndex:currentVCIndex-1];
-                [self.navigationController popToViewController:parent animated:YES];
-                
-                parent.mytext = self.textField.text;
-            
-         }
+        - (IBAction)backBarButton:(UIBarButtonItem *)sender {
+    
+                    // [self.navigationController popToRootViewControllerAnimated:YES];
+                    int currentVCIndex = [self.navigationController.viewControllers indexOfObject:self.navigationController.topViewController];
+                    
+                    if ([[self.navigationController.viewControllers objectAtIndex:currentVCIndex-1 ] isKindOfClass: [thirdViewController class] ]) {
+                        thirdViewController *parent = [self.navigationController.viewControllers objectAtIndex:currentVCIndex-1];
+                        [self.navigationController popToViewController:parent animated:YES];
+                        parent.mytext = self.textbox.text;
+                    }
+                  
+                }
         
     
     
