@@ -1,8 +1,6 @@
-IOS 7 cook book learning  
-==============
-
-sample and learning notes 
+sample and learning notes from book
 --------------
+https://github.com/vandadnp/ios-7-programming-cookbook-source-codes
 
 code: 
 
@@ -12,4 +10,4 @@ notes:
 
 	* include in readme 
 	* code sample 
-	*  tips
+	* tips
